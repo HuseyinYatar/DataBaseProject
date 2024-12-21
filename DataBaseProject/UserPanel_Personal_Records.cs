@@ -24,7 +24,6 @@ namespace DataBaseProject
 
         private void Add_PR_BTN_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(username);
             using (UserPanel_Personal_Records_Insert_Update Panel = new UserPanel_Personal_Records_Insert_Update())
             {
                 Panel.label1.Text = username;
